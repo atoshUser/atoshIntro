@@ -1,0 +1,45 @@
+/* GLOBAL STYLES  */
+
+:root{
+  ---body-bg:#E7E7E7;
+  --purple:#655AF2;
+  --green:#4DC490;
+  --red:#F03535;
+  --text-color:#000;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+html{
+  height: 100%;
+  box-sizing:border-box;
+  scroll-behavior: smooth;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+margin: 0;
+padding: 0;
+background-color: #e7e7e7;
+font-size: 16px;
+line-height: normal;
+color: var(--text-color);
+}
+
+.container{
+    width: 100%;
+   max-width: 1192px;
+   padding-left: 20px;
+   padding-right: 20px;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+*,
+*::before,
+*::after{
+  box-sizing:inherit;
+}
