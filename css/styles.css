@@ -112,7 +112,6 @@ padding-top: 80px;
 .hero {
   display: flex;
   flex-direction: column;
-
   border-radius: 20px;
   width: 100%;
   max-width: 570px;
@@ -124,8 +123,9 @@ padding-top: 80px;
    color: #fff;
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
   align-items: flex-start;
-padding: 60px;
+padding: 55px 60px;
 background-color:#555;
 background-image: url(../img/img-bg.jpg);
 background-repeat: no-repeat;
@@ -162,4 +162,73 @@ margin-bottom: 25px;
   line-height: normal;
   color:#fff;
   text-align: center;
+}
+
+
+/* SIGNUP STYLES  */
+
+.signup-form {
+  width: 100%;
+  max-width: 570px;
+  overflow: hidden;
+  padding: 55px 60px 40px;
+  border-radius: 20px;
+  background-color: #fff;
+  margin-left: 12px;
+}
+.signup-heading {
+  margin: 0;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+  color: #000;
+  margin-bottom: 60px;
+}
+.signup-form-fields {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 60px;
+
+}
+
+.signup-input:not(:last-child){
+  margin-bottom: 20px;
+}
+
+.signup-input{
+  padding-bottom: 14px;
+  padding-top: 15px;
+  border: 0;
+  border-bottom: 1px solid #555 ;
+}
+
+.signup-input:focus{
+   font-weight: 600;
+   font-size: 18px;
+   line-height: normal;
+}
+
+.form-fields-button {
+  display: block;
+  padding-top: 20px ;
+  padding-bottom: 20px;
+  border: 0;
+  border-radius: 10px;
+  background-color:var(--purple);
+  width: 100%;
+  cursor: pointer;
+  color:#fff;
+  margin-bottom: 8px;
+}
+.signup-fields-notice {
+  line-height: 15px;
+  font-weight: 400;
+  font-size: 11px;
+  text-align:center;
+}
+.signup-nitice-link {
+  font-size: 11px;
+  line-height: 15px;
+  font-weight: 500;
+  color:#F03535;
 }
